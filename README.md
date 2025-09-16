@@ -30,6 +30,7 @@
 const [a, b] = [10, 20];
 const {name, age} = {name: "Tamim", age: 22};
 
+```
 
 ### 5) Explain template literals in ES6. How are they different from string concatenation?
 
@@ -45,3 +46,5 @@ const {name, age} = {name: "Tamim", age: 22};
 
 const name = "Tamim";
 console.log(`Hello, my name is ${name}`);
+
+```
