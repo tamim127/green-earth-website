@@ -31,6 +31,13 @@
 
 <body class="bg-[#f0fdf4]">
 
+
+    <!-- Spinner -->
+    <div id="spinner" class="hidden fixed inset-0 flex justify-center items-center bg-white/70 z-50">
+        <div class="loading loading-dots loading-xl text-green-500"></div>
+    </div>
+
+
     <!-- navbar section -->
     <div class="navbar bg-[#15803d] shadow-sm">
         <div class="navbar-start">
@@ -136,6 +143,15 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Modal -->
+    <div id="treeModal" class="hidden fixed inset-0 bg-[#00000082] flex justify-center items-center z-50">
+        <div class="bg-white w-[500px] rounded-lg p-6 relative">
+            <!-- Modal content will be injected here by JS -->
+            <div id="modalContent"></div>
+        </div>
+    </div>
 
 
     <!-- About Campaign Section -->
@@ -257,19 +273,9 @@
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="./script.js"></script>
+
+
 </body>
 
 </html
